@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.header{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(67, 139, 163);
+    padding: 0;
+
+}
+.logo{
+    margin-left: 20px;
+    padding: 0;
+}
+.comp-name{
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+.wrap-year-date{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #7e7c7c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.wrap-left-content{
+    /* border-right: 2px solid black; */
+    padding-left: 150px;
+    height: 350px;
+    padding-right: 10px;
+
+}
+.wrap-left-content ul li{
+    list-style: none;
+}
+.wrap-left-content h3{
+    margin-top: 10px;
+}
+.wrap-right-content{
+    width: 50%;
+    height: 350px;
+    border-left: 2px solid #7e7c7c;
+    padding-left: 20px;
+    margin-right: 100px;
+}
+.input-field input{
+    display:block;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    color: #7e7c7c;
+
+}
+.input-field label{
+    line-height: 40px;
+    font-size: 20px;
+    color: #7e7c7c;
+}
+.forget-pass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+    padding-top: 5px;
+}
+.btn-field{
+    padding: 10px;
+    float: right;
+    margin-right: 200px;
+}
+.btn-field input{
+    padding: 10px;
+    color: white;
+    background-color: #7e7c7c;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+.btn-field input:hover{
+    background-color: rgb(67, 139, 163);
+    
+}
+
+.footer{
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    background-color: rgb(67, 139, 163);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #ffff;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
